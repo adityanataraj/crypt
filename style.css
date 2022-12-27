@@ -8,6 +8,10 @@
   margin-bottom: 1rem;
 }
 
+.disclaimer{
+  text-align: center;
+}
+
 #game-board {
   display: flex;
   align-items: center;
@@ -129,4 +133,14 @@
   .instructions{
     width: 100%;
   }
+
+  .keyboard-button {
+    font-size: 0.6rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    margin: 0 2px;
+    cursor: pointer;
+    text-transform: lowercase;
+  }
+
 }
