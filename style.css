@@ -116,17 +116,28 @@
 }
 
 .next-button{
-  border: none;
+  border: 2px solid rgb(101, 165, 42);
   padding: 0.75rem;
   font-size: 0.85rem;
-  background-color: rgb(101, 165, 42);
-  color: white;
+  background-color: white;
+  color: rgb(101, 165, 42);
   font-weight: 600;
+}
+
+.enter-key{
+  color: white;
+  background-color: rgb(101, 165, 42);
+}
+
+.del-key{
+  color:white;
+  background-color:red;
 }
 
 .next-button:hover{
   cursor: pointer;
   background-color: rgb(74, 121, 29);
+  color: white;
 }
 
 @media screen and (max-width: 800px) {
